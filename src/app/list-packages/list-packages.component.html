@@ -1,0 +1,6 @@
+<div class="cont-packages">
+  <div class="head-data" *ngFor="let title of titles"> {{title}} </div>
+  <div class="cont-item" *ngFor="let item of packages">
+    <package-data [package]="item"></package-data>
+  </div>
+</div>

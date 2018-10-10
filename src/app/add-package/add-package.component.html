@@ -1,0 +1,38 @@
+<div class="card2">
+  <div class="element">
+    <label class="label">Package Name:
+      <input class="input-style" type="text" name="currentPackage.name" [(ngModel)]="currentPackage.name">
+    </label>
+  </div>  
+  <div class="element">
+    <label class="label">Description:
+      <input class="input-style" type="text" name="currentPackage.description" [(ngModel)]="currentPackage.description">
+    </label>
+  </div>
+  <div class="element">
+    <label class="label">Price:
+      <input class="input-style" type="number" name="currentPackage.price" [(ngModel)]="currentPackage.price">
+    </label>
+  </div> 
+  <div class="element">
+    <label class="label">Departure Date:
+      <input class="input-style" type="date" name="currentPackage.departureDate" [(ngModel)]="currentPackage.departureDate">
+    </label>
+  </div>
+  <div class="element">
+    <label class="label">Arrive Date:
+      <input class="input-style" type="date" name="currentPackage.arriveDate" [(ngModel)]="currentPackage.arriveDate">
+    </label>
+  </div>
+  <div class="element">
+    <label class="label">Map:
+      googleLocation: ''
+      googleLocation: ''
+      <input class="input-style" type="text" name="currentPackage.googleLocation" [(ngModel)]="currentPackage.googleLocation">
+    </label>
+  </div>
+
+  <div class="container-btn">
+    <button class="style-btn" (click)="addPackages(currentPackage)" >Add Package</button>
+  </div>
+</div> 

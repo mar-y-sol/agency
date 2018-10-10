@@ -1,0 +1,12 @@
+.name, .description, .price, .departure-date, .arrive-date, .google-location {
+  float: left;
+  width: calc(100%/6);
+  padding: 15px 10px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+}
+.google-location, .description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
